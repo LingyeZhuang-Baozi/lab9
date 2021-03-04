@@ -3,7 +3,7 @@
  */
 var labs = require('../labs.json');
 
-exports.view = function(req, res){
+exports.view = function(req, res){  // check correctness of JSON
   if(labs.length < 9) {
   	var todaysLab = [{
 		"id": "lab-9",
